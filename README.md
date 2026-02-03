@@ -1,3 +1,3 @@
 # Blog
 
-我TM就是懒得写readme
+我TM就是懒得写ReadMe
