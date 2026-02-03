@@ -2,3 +2,8 @@
 name = "SiriNatsume 的博客"
 url = "https://blog.sirinatsume.com"
 description = "Stay calm, stay elegant."
+
+[[friends]]
+name = "Sakuya 的博客"
+url = "https://blog.perfsky.online"
+description = "Stay Hungry. Stay Foolish."
