@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="prose max-w-prose mx-auto">
+  <h1>{{ .Title }}</h1>
+
+  <ul>
+    {{ range site.Data.friends.friends }}
+      <li>
+        <a href="{{ .url }}" target="_blank" rel="noopener">
+          {{ .name }}
+        </a>
+        {{ with .description }} — {{ . }}{{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
